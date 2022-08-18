@@ -1,0 +1,206 @@
+# ---------------------- # Estudos de Linux # ---------------------- #
+
+----------------------------------------------------------------------
+
+* . : representa o diretório atual;
+
+----------------------------------------------------------------------
+
+* .. : representa o diretório anterior;
+
+----------------------------------------------------------------------
+
+* Ctrl + Alt + T : comando para abrir um novo terminal;
+
+----------------------------------------------------------------------
+
+* cd + <nome_diretorio> : comando para acessar pastas no Linux;
+
+----------------------------------------------------------------------
+
+* cd .. : comando para retornar ao nível imediatamente anterior
+em relação a pasta que o usuário se encontra;
+
+----------------------------------------------------------------------
+
+* l, ls, ls -l ou ls -la : lista os documentos de diretórios em
+que o usuário se encontra, variando entre mais ou menos detalhes;
+
+----------------------------------------------------------------------
+
+* exit : comando para sair do terminal Linux;
+
+----------------------------------------------------------------------
+
+* touch + <nome_arquivo> : comando para criar um arquivo;
+
+----------------------------------------------------------------------
+
+* echo + <cadeia_caracteres> > <nome_arquivo>: comando que insere
+a cadeia no arquivo e o subescreve caso haja algo escrito;
+
+----------------------------------------------------------------------
+
+* echo + <cadeia_caracteres> >> <nome_arquivo>: comando que realiza
+um apende da cadeia no arquivo;
+
+----------------------------------------------------------------------
+
+* rm + <nome_arquivo> : comando para excluir um arquivo;
+
+----------------------------------------------------------------------
+
+* mkdir + <nome_diretorio> : comando para criar um novo diretório;
+
+----------------------------------------------------------------------
+
+* rm -rf <nome_diretorio> : comando para excluir diretório;
+
+----------------------------------------------------------------------
+
+* <nome_aplicacao> : digitando o nome da aplicação ela é inicializada
+automaticamente;
+
+----------------------------------------------------------------------
+
+* man + <comando> : apresenta manual do comando escrito;
+
+----------------------------------------------------------------------
+
+* clear ou Ctrl + l : faz a limpeza do terminal;
+
+----------------------------------------------------------------------
+
+* cp + <caminho_origem> + <caminho_destino> : comando que copia
+arquivo e o envia para o lugar definido;
+
+----------------------------------------------------------------------
+
+* mv + <caminho_origem> + <caminho_destino> : comando que move um
+arquivo para o lugar definido;
+
+----------------------------------------------------------------------
+
+* pwd : caminho do diretório atual;
+
+----------------------------------------------------------------------
+
+* cat + <nome_arquivo> : mostra o conteúdo de um arquivo no terminal;
+
+----------------------------------------------------------------------
+
+* sudo : permite a execução de comandos com privilégios como  usuário
+administrador do sistema;
+
+----------------------------------------------------------------------
+
+* apt-get : efetuar gerenciamento de pacotes;
+
+----------------------------------------------------------------------
+
+* ps : lista os processos em execução no sistema;
+
+----------------------------------------------------------------------
+
+* ps aux : lista todos os processos em execução no sistema, incluindo
+os que foram inicializados pelo sistema;
+
+----------------------------------------------------------------------
+
+* ps aux + | + more : lista todos os processos em execução no sistema,
+incluindo os que foram inicializados pelo sistema, com a diferença de
+que adiciona a possibilidade de se mover entre as "páginas";
+
+----------------------------------------------------------------------
+
+* ps aux + | + less : lista todos os processos em execução no sistema,
+incluindo os que foram inicializados pelo sistema, com a diferença de
+que adiciona a possibilidade de se mover entre as "páginas" de forma
+otimizada, carregando o necessário para exibir a cada tela;
+
+----------------------------------------------------------------------
+
+* grep : permite aplicação de filtro ao se executar alguma busca por
+processos em execução;
+
+----------------------------------------------------------------------
+
+* kill -9 + <numero_processo>: gerenciamento de processos, que permite
+encerrar programa;
+
+----------------------------------------------------------------------
+
+* tar xvjf <nome_pacote>: comando para desempacotar um pacote;
+
+----------------------------------------------------------------------
+
+* shutdown : desligar(-h now) ou reiniciar (-r now) o sistema;
+
+----------------------------------------------------------------------
+
+* env ou printenv : mostram as variáveis de ambiente no terminal;
+
+----------------------------------------------------------------------
+
+* cat /proc/meminfo ou free ou vmstat ou top htop : comando para
+verificar uso de memória;
+
+----------------------------------------------------------------------
+
+* whoami : comando para descobrir quem está usando a máquina naquele
+momento;
+
+----------------------------------------------------------------------
+
+* history : comando que mostra histórico de comandos executados;
+
+----------------------------------------------------------------------
+
+* which + <comando> : mostra o caminho completo do binário do comando;
+
+----------------------------------------------------------------------
+
+* set + | + less : lista todas as variáveis de ambiente que estão em
+uso;
+
+----------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------
