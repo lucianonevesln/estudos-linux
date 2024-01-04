@@ -1,4 +1,4 @@
-# ---------------------- # Estudos de Linux # ---------------------- #
+# ----------------- # Estudos de Linux - Comandos # ----------------- #
 
 ----------------------------------------------------------------------
 
@@ -165,35 +165,46 @@ uso;
 
 ----------------------------------------------------------------------
 
-
-
-----------------------------------------------------------------------
-
-
+* sudo dpkg -l : lista todos os pacotes baixados;
 
 ----------------------------------------------------------------------
 
-
-
-----------------------------------------------------------------------
-
-
+* rm -rf ~/.local/share/Trash/* : remove itens armazenados na lixeira;
 
 ----------------------------------------------------------------------
 
-
-
-----------------------------------------------------------------------
-
-
-
-----------------------------------------------------------------------
-
-
+* cat /proc/<PID>/status : comando que acessa arquivos falsos de
+diretórios e mostra seu conteúdo, que é constituído por informações
+relativas ao processo passado. OBS: essas informações são apenas
+representações virtuais;
 
 ----------------------------------------------------------------------
 
+* mount : apresenta os pontos de montagem ativos do sistema.
 
+Antes de acessar um dispositivos de armazenamento, é necessário montá-
+lo, ou seja, trata-se do processo que torna esse dispositivo acessível
+ao usuário;
+
+----------------------------------------------------------------------
+
+* lsblk : apresenta os dispositivos de armazenamentos plugados.
+
+Dispositivos de armazenamento gerenciam blocos de bits;
+
+----------------------------------------------------------------------
+
+* hexdump <nome_arquivo_binario> : retorna uma representação em
+hexadecimal de arquivo binários de computador;
+
+----------------------------------------------------------------------
+
+* ip route : mostra o ip do roteador do usuário;
+
+----------------------------------------------------------------------
+
+* route -n : mostra uma lista de ips com alguma informações
+adicionais;
 
 ----------------------------------------------------------------------
 
